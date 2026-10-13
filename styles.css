@@ -162,7 +162,7 @@ p {
 
 .nav-inner {
     width: min(1280px, calc(100% - 32px));
-    min-height: 88px;
+    min-height: 100px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -179,8 +179,8 @@ p {
 
 .brand img {
     width: 100%;
-    max-width: 275px;
-    max-height: 76px;
+    max-width: 550px;
+    max-height: 152px;
     object-fit: contain;
 }
 
@@ -262,8 +262,8 @@ p {
 }
 
 .footer-brand img {
-    width: 250px;
-    max-height: 90px;
+    width: 500px;
+    max-height: 180px;
     object-fit: contain;
 }
 
