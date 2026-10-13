@@ -67,10 +67,10 @@ function renderFooter() {
           <h2>Quick Links</h2>
           <div class="footer-links">
             <a href="${ENROLL_URL}" target="_blank" rel="noopener">Book a free session</a>
-            <a href="reviews.html">Reviews</a>
             <a href="index.html">Home</a>
-            <a href="faqs.html">FAQs</a>
             <a href="services.html">Services</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="faqs.html">FAQs</a>
             <a href="about.html">About Us</a>
           </div>
         </div>
