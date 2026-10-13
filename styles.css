@@ -346,23 +346,6 @@ p {
     margin-top: 1.35rem;
 }
 
-.hero-photo-wrap {
-    position: relative;
-    align-self: stretch;
-    min-height: 330px;
-    margin-right: calc((min(1200px, 100vw - 48px) - 100vw)/2);
-    overflow: hidden;
-}
-
-.hero-photo-wrap::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-    pointer-events: none;
-    background: linear-gradient(90deg, var(--teal) 0%, rgba(88, 196, 191, .68) 13%, rgba(88, 196, 191, .08) 48%, rgba(88, 196, 191, .05) 80%, var(--teal) 100%), linear-gradient(0deg, rgba(88, 196, 191, .35), transparent 30%, transparent 70%, rgba(88, 196, 191, .25));
-}
-
 
 /* Home page: extend the hero image to the right edge */
 @media (min-width: 701px) {
