@@ -347,37 +347,22 @@ p {
 }
 
 
-/* Home page: extend the hero image to the right edge */
-@media (min-width: 701px) {
-    .home-hero {
-        padding-right: 0;
-    }
-
-    .hero-photo-wrap {
-        width: 100%;
-        min-width: 0;
-        margin-right: 0;
-    }
-
-    .hero-photo {
-        object-position: right center;
-    }
+.hero-photo-wrap {
+    position: relative;
+    align-self: stretch;
+    min-height: 330px;
+    width: calc(100% - (min(1200px, 100vw - 48px) - 100vw) / 2);
+    margin-right: calc((min(1200px, 100vw - 48px) - 100vw)/2);
+    overflow: hidden;
 }
 
-/* Keep the photo edge-to-edge on mobile too */
-@media (max-width: 700px) {
-    .home-hero {
-        padding-right: 22px;
-    }
-
-    .hero-photo-wrap {
-        margin-right: -22px;
-        margin-left: -22px;
-    }
-
-    .hero-photo {
-        object-position: right center;
-    }
+.hero-photo-wrap::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background: linear-gradient(90deg, var(--teal) 0%, rgba(88, 196, 191, .68) 13%, rgba(88, 196, 191, .08) 48%, rgba(88, 196, 191, .05) 80%, var(--teal) 100%), linear-gradient(0deg, rgba(88, 196, 191, .35), transparent 30%, transparent 70%, rgba(88, 196, 191, .25));
 }
 
 
