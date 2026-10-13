@@ -78,7 +78,7 @@ function renderFooter() {
           <h2>Contact Us</h2>
           <div class="contact-list">
             <a href="mailto:${EMAIL}">✉ ${EMAIL}</a>
-            <a href="${INSTAGRAM_URL}" target="_blank" rel="noopener"> <img src="assets/Insta_logo.png"> Aniras_Hub</a>
+            <a href="${INSTAGRAM_URL}" target="_blank" rel="noopener">◎ Aniras_Hub</a>
           </div>
         </div>
       </div>
