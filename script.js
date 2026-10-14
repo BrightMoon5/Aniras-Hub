@@ -5,7 +5,7 @@ const INSTAGRAM_URL = 'https://www.instagram.com/Aniras_Hub/';
 const EMAIL = 'AnirasHub@gmail.com';
 
 const pageLinks = [
-  ['Home', 'index.html', 'home'],
+  ['Home', 'home.html', 'home'],
   ['Services', 'services.html', 'services'],
   ['Reviews', 'reviews.html', 'reviews'],
   ['FAQs', 'faqs.html', 'faqs'],
@@ -14,7 +14,7 @@ const pageLinks = [
 
 function currentPageKey() {
   const file = window.location.pathname.split('/').pop().toLowerCase();
-  if (!file || file === 'index.html') return 'home';
+  if (!file || file === 'home.html') return 'home';
   if (file.startsWith('services')) return 'services';
   if (file.startsWith('reviews')) return 'reviews';
   if (file.startsWith('faqs')) return 'faqs';
@@ -32,7 +32,7 @@ function renderHeader() {
   host.innerHTML = `
     <header class="site-header">
       <div class="nav-inner">
-        <a class="brand" href="index.html" aria-label="Aniras Hub home">
+        <a class="brand" href="home.html" aria-label="Aniras Hub home">
           <!-- LOGO LOCATION: replace assets/aniras-hub-logo.png or change this src. -->
           <img src="assets/aniras-hub-logo.png" alt="Aniras Hub — Turn Not Yet into What's Next">
         </a>
@@ -62,12 +62,12 @@ function renderFooter() {
   host.innerHTML = `
     <footer class="site-footer">
       <div class="footer-inner">
-        <a class="footer-brand" href="index.html" aria-label="Aniras Hub home"><img src="assets/aniras-hub-logo.png" alt="Aniras Hub logo"></a>
+        <a class="footer-brand" href="home.html" aria-label="Aniras Hub home"><img src="assets/aniras-hub-logo.png" alt="Aniras Hub logo"></a>
         <div class="footer-column">
           <h2>Quick Links</h2>
           <div class="footer-links">
             <a href="${ENROLL_URL}" target="_blank" rel="noopener">Book a free session</a>
-            <a href="index.html">Home</a>
+            <a href="home.html">Home</a>
             <a href="services.html">Services</a>
             <a href="reviews.html">Reviews</a>
             <a href="faqs.html">FAQs</a>
