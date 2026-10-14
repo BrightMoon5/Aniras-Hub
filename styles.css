@@ -1361,9 +1361,9 @@ p {
 .contact-list a img,
 .contact-list a .instagram-icon {
     display: block;
-    flex: 0 0 12px;
-    width: 12px;
-    height: 12px;
+    flex: 0 0 14px;
+    width: 14px;
+    height: 14px;
 }
 
 /* Keep contact links on one line on mobile */
@@ -1375,9 +1375,9 @@ p {
 
 /* Instagram icon: dark blue to match the contact text */
 .instagram-icon {
-    width: 12px;
-    height: 12px;
-    flex: 0 0 12px;
+    width: 14px;
+    height: 14px;
+    flex: 0 0 14px;
     object-fit: contain;
     filter: brightness(0) saturate(100%)
             invert(12%) sepia(43%)
