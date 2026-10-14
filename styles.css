@@ -1343,11 +1343,34 @@ p {
 }
 
 
-/* Footer contact links */
+
+/* Keep each footer contact icon beside its text */
 .contact-list a {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
     gap: 7px;
+    width: fit-content;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+/* Prevent contact icons from shrinking or moving to another line */
+.contact-list a img,
+.contact-list a .instagram-icon {
+    display: block;
+    flex: 0 0 16px;
+    width: 16px;
+    height: 16px;
+}
+
+/* Keep contact links on one line on mobile */
+@media (max-width: 700px) {
+    .contact-list a {
+        white-space: nowrap;
+    }
 }
 
 /* Instagram icon: dark blue to match the contact text */
