@@ -1341,3 +1341,24 @@ p {
         animation: none !important;
     }
 }
+
+
+/* Footer contact links */
+.contact-list a {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+}
+
+/* Instagram icon: dark blue to match the contact text */
+.instagram-icon {
+    width: 16px;
+    height: 16px;
+    flex: 0 0 16px;
+    object-fit: contain;
+    filter: brightness(0) saturate(100%)
+            invert(12%) sepia(43%)
+            saturate(2430%) hue-rotate(196deg)
+            brightness(91%) contrast(103%);
+}
+
