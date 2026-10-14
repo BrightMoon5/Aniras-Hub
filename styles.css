@@ -1385,3 +1385,13 @@ p {
             brightness(91%) contrast(103%);
 }
 
+
+/* About page: align Instagram icon and text inside the button */
+.contact-links a {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 7px;
+}
