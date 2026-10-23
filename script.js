@@ -5,7 +5,7 @@ const INSTAGRAM_URL = 'https://www.instagram.com/Aniras_Hub/';
 const EMAIL = 'AnirasHub@gmail.com';
 
 const pageLinks = [
-  ['Home', 'index.html', 'home'],
+  ['Home', 'home.html', 'home'],
   ['Services', 'services.html', 'services'],
   ['Reviews', 'reviews.html', 'reviews'],
   ['FAQs', 'faqs.html', 'faqs'],
@@ -14,7 +14,7 @@ const pageLinks = [
 
 function currentPageKey() {
   const file = window.location.pathname.split('/').pop().toLowerCase();
-  if (!file || file === 'index.html') return 'home';
+  if (!file || file === 'home.html') return 'home';
   if (file.startsWith('services')) return 'services';
   if (file.startsWith('reviews')) return 'reviews';
   if (file.startsWith('faqs')) return 'faqs';
