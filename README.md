@@ -2,17 +2,6 @@
 
 A responsive, multi-page static website built with HTML, CSS, and vanilla JavaScript based on the five-page Aniras Hub design PDF.
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6J0DE6ERBE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-6J0DE6ERBE');
-</script>
-
-
 ## Pages
 
 - `index.html` — Home
