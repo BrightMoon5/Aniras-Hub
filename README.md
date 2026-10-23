@@ -4,7 +4,7 @@ A responsive, multi-page static website built with HTML, CSS, and vanilla JavaSc
 
 ## Pages
 
-- `index.html` — Home
+- `home.html` — Home
 - `services.html` — Services
 - `reviews.html` — Reviews and swipeable review cards
 - `faqs.html` — FAQ accordion (only one answer can be open at a time)
@@ -16,7 +16,7 @@ Shared layout and behaviour live in `styles.css` and `script.js`. Image assets a
 
 1. Download and unzip this project.
 2. Create or open your GitHub repository.
-3. Upload all files and folders in this project, keeping the same structure. `index.html` must be in the repository root.
+3. Upload all files and folders in this project, keeping the same structure. `home.html` must be in the repository root.
 4. In the repository, open **Settings → Pages**.
 5. Under **Build and deployment**, select **Deploy from a branch**, choose `main` and `/ (root)`, then save.
 6. Wait for GitHub Pages to publish the site. The URL will usually be `https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/`.
@@ -35,7 +35,7 @@ const EMAIL = 'AnirasHub@gmail.com';
 - Change `ENROLL_URL` to update the booking form across the shared navigation and footer. The same form URL is also directly used in page-specific buttons and FAQ links; search the project for `forms.gle/1qeqk1FDT8qyGmPd8` to change every occurrence.
 - Change `REVIEW_URL` if the review form changes. The review button URLs are also in `reviews.html`; search for `forms.gle/Ak16ZvCyWL39sR3o7` to update all of them.
 - Change `INSTAGRAM_URL` and `EMAIL` to update the shared footer links. Their page-specific links are in `faqs.html` and `about.html` too.
-- Internal page navigation uses the relative paths `index.html`, `services.html`, `reviews.html`, `faqs.html`, and `about.html`. Keep the filenames as they are, or update every corresponding link if you rename them.
+- Internal page navigation uses the relative paths `home.html`, `services.html`, `reviews.html`, `faqs.html`, and `about.html`. Keep the filenames as they are, or update every corresponding link if you rename them.
 
 ## Where to change images and logo
 
@@ -73,7 +73,7 @@ You can use a hosted image URL instead, e.g. `https://example.com/my-photo.jpg`,
 
 ## Run locally
 
-You can open `index.html` directly in a browser. For a more realistic local server, use the VS Code Live Server extension or run Python from the project folder:
+You can open `home.html` directly in a browser. For a more realistic local server, use the VS Code Live Server extension or run Python from the project folder:
 
 ```bash
 python -m http.server 8000
