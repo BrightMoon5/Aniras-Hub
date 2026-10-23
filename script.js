@@ -32,7 +32,7 @@ function renderHeader() {
   host.innerHTML = `
     <header class="site-header">
       <div class="nav-inner">
-        <a class="brand" href="index.html" aria-label="Aniras Hub home">
+        <a class="brand" href="home.html" aria-label="Aniras Hub home">
           <!-- LOGO LOCATION: replace assets/aniras-hub-logo.png or change this src. -->
           <img src="assets/aniras-hub-logo.png" alt="Aniras Hub — Turn Not Yet into What's Next">
         </a>
@@ -62,12 +62,12 @@ function renderFooter() {
   host.innerHTML = `
     <footer class="site-footer">
       <div class="footer-inner">
-        <a class="footer-brand" href="index.html" aria-label="Aniras Hub home"><img src="assets/aniras-hub-logo.png" alt="Aniras Hub logo"></a>
+        <a class="footer-brand" href="home.html" aria-label="Aniras Hub home"><img src="assets/aniras-hub-logo.png" alt="Aniras Hub logo"></a>
         <div class="footer-column">
           <h2>Quick Links</h2>
           <div class="footer-links">
             <a href="${ENROLL_URL}" target="_blank" rel="noopener">Book a free session</a>
-            <a href="index.html">Home</a>
+            <a href="home.html">Home</a>
             <a href="services.html">Services</a>
             <a href="reviews.html">Reviews</a>
             <a href="faqs.html">FAQs</a>
