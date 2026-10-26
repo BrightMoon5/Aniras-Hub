@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://brightmoon5.github.io/Aniras-Hub/sitemap.xml
