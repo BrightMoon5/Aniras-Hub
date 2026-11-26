@@ -1,7 +1,7 @@
 /* Shared navigation, footer, mobile menu, FAQ accordion, and review carousel. */
 const ENROLL_URL = 'https://forms.gle/1qeqk1FDT8qyGmPd8';
 const REVIEW_URL = 'https://forms.gle/Ak16ZvCyWL39sR3o7';
-const INSTAGRAM_URL = 'https://www.instagram.com/Aniras_Hub/';
+const INSTAGRAM_URL = 'https://www.instagram.com/sarina.alhdn/';
 const EMAIL = 'AnirasHub@gmail.com';
 
 const pageLinks = [
